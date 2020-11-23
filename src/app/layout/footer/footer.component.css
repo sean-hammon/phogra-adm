@@ -1,0 +1,7 @@
+:host {
+  flex: 0 0 var(--header-footer-height);
+  background-color: var(--color-brightest);
+  color: var(--color-dark);
+  border-top: 1px solid var(--color-lighter);
+  padding: var(--site-padding);
+}

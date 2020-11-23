@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-brightest: #fff;
+  --color-lightest: #eff9fa;
+  --color-lighter: #c7d3dd;
+  --color-medium: #737069;
+  --color-dark: #1d1d2f;
+
+  --header-footer-height: 2.5rem;
+  --site-padding: .25rem .5rem;
+}
+html {
+  background-color: var(--color-lightest);
+}
+.__full-frame {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex: 1;
+}
